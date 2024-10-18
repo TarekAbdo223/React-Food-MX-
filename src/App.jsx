@@ -3,9 +3,7 @@ import Checkout from "./components/Checkout";
 import Header from "./components/Header";
 import Meals from "./components/Meals";
 import { CartContextProvider } from "./store/cartContext";
-import UserProgressContext, {
-  UserProgressContextProvider,
-} from "./store/UserProgressContext";
+import { UserProgressContextProvider } from "./store/UserProgressContext";
 
 function App() {
   return (
